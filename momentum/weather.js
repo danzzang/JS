@@ -1,4 +1,4 @@
-const API_KEY = "";
+const API_KEY = process.env.VUE_APP_API_KEY;
 const COORDS = 'coords';
 const weather = document.querySelector(".js-weather");
 
